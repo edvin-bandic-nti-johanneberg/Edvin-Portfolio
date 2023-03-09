@@ -1,6 +1,43 @@
+body{
+
+background-color: #F6F6F2;
+}
+
+.navbar-brand{
+
+color: black;
+}
+
+.nav-link{
+color: black;
+margin-right: 50px;
+}
+
+
+
+
+
+.navbar .navbar-nav{
+margin: 0 auto;
+
+}
+
+.navbar{
+background-color: transparent !important;
+height: 50px;
+}
+
+.mynav{
+background-color:#388087;
+}
+
+
+
+
 .card{
 width: 500px;
 height: 500px;
+margin: 50px;
 }
 
 .carousel-item{
@@ -16,9 +53,7 @@ height:800px;
 height: 400px;
 }
 
-.card{
-margin: 50px;
-}
+
 
 h5{
 color: black;
@@ -27,4 +62,53 @@ color: black;
 h1{
 display: flex;
 justify-content: center;
+}
+
+.profilbild{
+height: 600px;
+width: auto;
+position: absolute;
+margin: 100px;
+box-shadow: 10px black;
+}
+
+.front{
+min-height: 100vh;
+min-width: 100vw;
+background-color:#388087
+}
+
+.text{
+position: absolute;
+font-size:90px;
+left:500px;
+top: 200px;
+color:#F6F6F2;
+text-shadow: 2px 2px grey;
+}
+
+.text2{
+    position: absolute;
+    font-size:80px;
+    left:500px;
+    top: 320px;
+    color:#F6F6F2;
+    text-shadow: 2px 2px grey;
+    }
+
+.text3{
+    position: absolute;
+    font-size:80px;
+    left:500px;
+    top: 420px;
+    color:#F6F6F2;
+    text-shadow: 2px 2px grey;
+    }
+
+
+
+.btn{
+border: #c2edce;
+background-color: #c2edce;
+color: black;
 }
