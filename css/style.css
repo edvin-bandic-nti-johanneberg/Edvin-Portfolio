@@ -1,0 +1,30 @@
+.card{
+width: 500px;
+height: 500px;
+}
+
+.carousel-item{
+padding: 80px;
+}
+
+.d-block{
+height:800px;
+
+}
+
+.card-img-top{
+height: 400px;
+}
+
+.card{
+margin: 50px;
+}
+
+h5{
+color: black;
+}
+
+h1{
+display: flex;
+justify-content: center;
+}
