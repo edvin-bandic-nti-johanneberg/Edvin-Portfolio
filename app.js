@@ -11,7 +11,7 @@ burgerButton.onclick = function toggleBurger() {
 
 function topnav(){
 
-if(document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
 console.log("baby")
 nav.classList.add("navon")
 }else{
