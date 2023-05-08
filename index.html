@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edvin-Bandic-Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <div id="wrapper">
 
   <nav class="topnav">
-    <a href="#home" class="active"></a>
+    <a href="#home" class="active1"></a>
 <div class="navbar">
     <div class="dropdown">
       <button class="dropbtn">School Work
@@ -44,13 +45,114 @@
     </div>
   </div>
   </div>
+</div>
 
 
-<section class="cool">
-<img src="./img/IMG_3617.png" alt="bild på mig" class="pic">
-<h1>Wassup Cuh Welcome yäni</h1>
-</section>
+<div class="about">
+<div class="kort">
+<div class="content">
+      <img src="/img/IMG_3617.png" alt="bild på mig" class="pic">
+<div class="text">
+      <p>hello everybody i am</p>
+      <h1>EDVIN BANDIC</h1>
+      <h4>Junior UI/UX DEVELOPER</h4>
+<div class="icon">
+      <i class="fas fa-phone transparent-icon">072 388 82 82</i>
+      <i class="far fa-calendar-alt">10 Augusti 2004</i>
+      <i class="far fa-envelope">edvin.bandic@gmail.com</i>
+      <i class="fas fa-home"> Gothenburg / Partille</i>
+</div>
+</div>
+</div>
+</div>
+</div>
 
+
+
+<div>
+<p class="title">PROJECTS</p>
+</div>
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="/img/Mönster_Edvin_bandic.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/by tha water.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/Skärmavbild 2023-02-28 kl. 14.40.51.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/Skärmavbild 2023-02-28 kl. 14.41.17.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/Mockup paw by paw.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/FINAL VERSION! Front + back cover GYA (1).png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/forgme artikel mockupjpg.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/img/Edvin_Bandic_Perfect_World_Rityta 1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="/img/Mönster_Edvin_bandic.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/by tha water.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/Skärmavbild 2023-02-28 kl. 14.40.51.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/Skärmavbild 2023-02-28 kl. 14.41.17.png" style="width:100%">
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/Mönster_Edvin_bandic.png" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/by tha water.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/Skärmavbild 2023-02-28 kl. 14.40.51.png" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/Skärmavbild 2023-02-28 kl. 14.41.17.png" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
 
 
 
@@ -59,7 +161,7 @@
 
 <section class="wrap">
   <div class="box">
-    <img src="/img/Edvin_Bandic_Onomatipetiskaord2023 (1) (1).jpg" alt="Image 1">
+    <img src="/img/forgme artikel mockupjpg.jpg" alt="Image 1">
     <h2>Box 1 Title</h2>
     <p>Box 1 Description</p>
   </div>
@@ -81,23 +183,17 @@
     <h2>Box 4 Title</h2>
     <p>Box 4 Description</p>
   </div>
-
-  <div class="box">
-    <img src="/img/FINAL VERSION! Front + back cover GYA (1).png" alt="Image 4">
-    <h2>Box 4 Title</h2>
-    <p>Box 4 Description</p>
-  </div>
-
-  <div class="box">
-    <img src="/img/FINAL VERSION! Front + back cover GYA (1).png" alt="Image 4">
-    <h2>Box 4 Title</h2>
-    <p>Box 4 Description</p>
-  </div>
 </section>
 
 
+<footer>
+<p>Wassup jag är en grafisk desginer och är based in Göteborg</p>
+<p></p>
+<p></p>
+</footer>
 
-    </div>
+
+
 
 <script src="app.js"></script>
 </body>
