@@ -10,6 +10,8 @@ TESTS
 
 DATOR:
 Chrome det funka så som den ska
+
+
 Safari det funka så som den ska
 
 
@@ -17,4 +19,6 @@ Safari det funka så som den ska
 MOBIL:
 
 Safar(på en iphone 11) det funka så som den ska
+
+
 Chrome(på en iphone 11) det funka så som den ska
